@@ -1,0 +1,24 @@
+1. typedef struct CMD_LINE 
+2. typedef struct DATA
+3. typedef struct GRID
+4. typedef struct STATE_1D
+5. typedef struct TABLE2D 
+6. typedef struct TIME_STEP
+7. typedef struct OUTPUT
+8. typedef struct RUNTIME
+9. typedef struct RESTART
+10. typedef struct RGB
+11. typedef struct IMAGE
+12. typedef struct FLOAT_VECT
+13. typedef struct INDEX
+14. typedef struct INT_LIST
+15. typedef struct RBOX
+    
+
+
+
+
+
+
+
+

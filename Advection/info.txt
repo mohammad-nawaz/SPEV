@@ -1,0 +1,46 @@
+# ------------------------------------------------------------------------------
+# Description: Summary of the routines of advection module. 
+# Author: M A Nawaz (ali.nawaz.md@gmail.com)
+# Date: 18 March 2017
+# ------------------------------------------------------------------------------
+
+# main.c // This is temporary main for Advection module.
+/* -----------------------------------------------------------------------------
+ * Description: spev main method
+ * Functions: main()
+ * Called functions: SetBackground()
+ * Calling functions: 
+ * -------------------------------------------------------------------------- */
+
+# access_bin.c
+/* -----------------------------------------------------------------------------
+ * Description: Access binary files
+ * Functions: OpenBinaryFile()
+ * Called functions: 
+ * Calling functions: SetBackground()
+ * -------------------------------------------------------------------------- */
+
+# mem_alloc.c
+/* ----------------------------------------------------------------------------    
+ * Description: Dynamically allocate memory in the heap.
+ * Functions: SinglePtr(), DoublePtr(), QuadruplePtr()
+ * Called functions:
+ * Calling functions:
+ * ------------------------------------------------------------------------- */
+
+# read_ini.c
+/* -----------------------------------------------------------------------------
+ * Description: Read pluto.ini for information on grid boundary
+ * Functions: 
+ * Called functions:
+ * Calling functions: 
+ * -------------------------------------------------------------------------- */
+
+# set_background.c
+/* -----------------------------------------------------------------------------
+ * Description: Set the background from pluto output file (.dbl file) and grid 
+ * information. 
+ * Functions: SetBackground(), GetPlutoVarNames()
+ * Called functions: OpenBinaryFile()
+ * Calling functions: main(), 
+ * -------------------------------------------------------------------------- */
